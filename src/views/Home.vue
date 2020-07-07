@@ -7,12 +7,13 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import head_page from '@/components/head_page.vue'
+import Vuetify from 'vuetify'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    head_page
   }
 }
 </script>
